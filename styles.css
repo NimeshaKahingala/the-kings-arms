@@ -943,6 +943,7 @@ body {
    }
     .section-welcome .container .main-banner {
         background-position: center;
+        background-image: url("./images/facilities/mobileBanner.jpg");
    }
     .section-welcome .container .welcome-title {
         font: normal normal normal 25px/35px Stoke;
