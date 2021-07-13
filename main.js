@@ -16,12 +16,16 @@ function switchSite() {
 function contactModal() {
   // $('#contact-us-modal').fadeToggle('slow', 'linear');
   $("#contact-us-modal").addClass("btn-active");
-
+  var html = $('html');
+  html.data('previous-overflow', html.css('overflow'));
+  html.css('overflow', 'hidden');
 }
 
 function contactModalClose() {
   // $('#contact-us-modal').fadeToggle('slow', 'linear');
   $("#contact-us-modal").removeClass("btn-active");
+  var html = $('html');
+  html.css('overflow', html.data('previous-overflow'));
 }
 
 $(function () {
