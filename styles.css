@@ -938,6 +938,7 @@ body {
    }
     .section {
         padding: 60px 25px;
+        padding-top: 100px;
    }
     .section .title {
         font: normal normal normal 25px/35px Stoke !important;
@@ -1060,6 +1061,10 @@ body {
     .section-aboutus .container .aboutus-video {
        width: 100%;
    }
+    .section-aboutus .container .about-us-video {
+        height: auto;
+        width: 100%;
+   }
     .contact-us-modal {
         margin-left: 0;
    }
@@ -1101,6 +1106,14 @@ body {
         align-items: center;
         padding: 14px;
    }
+    .section-gallery .gray-wrap .gallery-gray-img {
+        width: 46px;
+        height: 40px;
+    }
+    .section-gallery .container .gray-area .gray-wrap .gray-text {
+        font: normal normal normal 12px/22px Nunito Sans;
+        line-height: 1.5;
+    }
     .section-gallery .gallery-wrap .gray-wrap .gray-text {
         font-size: 12px;
    }
@@ -1189,6 +1202,9 @@ body {
    }
     .section-gallery .gray-wrap:nth-child(2) {
         min-width: 109%;
+   }
+   .switch-card {
+        top: calc(50vh - 70px);
    }
 }
 
