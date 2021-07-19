@@ -10,7 +10,7 @@ function closeSwitchCard() {
 
 
 function switchSite() {
-  window.location.href = "https://banyanrestaurant.co.uk/";
+  window.open("https://banyanrestaurant.co.uk/");
 }
 
 function contactModal() {

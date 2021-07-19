@@ -570,7 +570,7 @@ body {
     display: flex;
     position: fixed;
     right: 0;
-    top: 354px;
+    top: calc(50vh - 84px);
     transition: 500ms linear;
     z-index: 2;
 }
